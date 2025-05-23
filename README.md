@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my skills, educ
 
 ## 🚀 Live Preview
 
-> Currently running locally. To view, open `index.html` in your browser.
+ https://helnises.github.io/my-own-first-project/
 
 ---
 
