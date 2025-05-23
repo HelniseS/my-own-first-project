@@ -7,3 +7,8 @@
 - [User Stories] (#user-stories)
 - 
 - 
+
+
+[Computer wireframe.pdf](https://github.com/user-attachments/files/20409274/Computer.wireframe.pdf)
+[Ipad wireframe.pdf](https://github.com/user-attachments/files/20409275/Ipad.wireframe.pdf)
+[Iphone.pdf](https://github.com/user-attachments/files/20409277/Iphone.pdf)
