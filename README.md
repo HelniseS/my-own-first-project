@@ -1,13 +1,51 @@
 # Helnise Portfolio Website 🌐
 
-Welcome to my personal portfolio website! This project showcases my skills, education, and experience as a front-end web developer, with a focus on responsive and user-friendly web design.
-
+Welcome to my personal portfolio website!This site was created to present my journey as a web developer and IT support specialist, showcasing my technical skills, education, and professional interests. It serves as a digital résumé and an online space where recruiters, collaborators, or anyone interested in my work can learn more about me. 
 ## 🚀 Live Preview
 
  https://helnises.github.io/my-own-first-project/
 
 ---
-
+[Contents](#contents)
+  * [User Goals](#user-goals)
+  * [User Stories](#user-stories)
+  * [Website Goals and Objectives](#website-goals-and-objectives)
+  * [Wireframes](#wireframes)
+  * [Design Choices](#design-choices)
+    + [Typography](#typography)
+    + [Colour Scheme](#colour-scheme)
+    + [Images](#images)
+    + [Responsiveness](#responsiveness)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+    + [Header](#header)
+      - [Instructions](#instructions)
+      - [Feedback](#feedback)
+    + [Landing View](#landing-view)
+    + [Question View](#question-view)
+    + [Final Score View](#final-score-view)
+    + [Footer](#footer)
+       * [Future Enhancements](#future-enhancements)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Libraries & Framework](#libraries---framework)
+  * [Tools](#tools)
+- [Testing](#testing)
+  * [Bugs Fixed](#bugs-fixed)
+  * [Responsiveness Tests](#responsiveness-tests)
+  * [Code Validation](#code-validation)
+    + [HTML](#html)
+    + [CSS](#css)
+  * [User Story Testing](#user-story-testing)
+  * [Feature Testing](#feature-testing)
+  * [Accessibility Testing](#accessibility-testing)
+  * [Lighthouse Testing](#lighthouse-testing)
+  * [Browser Testing](#browser-testing)
+- [Deployment](#deployment)
+  * [To deploy the project](#to-deploy-the-project)
+  * [To fork the project](#to-fork-the-project)
+  * [To clone the project](#to-clone-the-project)
+- [Credits](#credits)
 ## 📂 Project Structure
 
 ```bash
@@ -31,42 +69,58 @@ Welcome to my personal portfolio website! This project showcases my skills, educ
 
 ---
 
-## 🧑‍💻 User Experience
+## 🧑‍💻 User Goals
 
 This portfolio website has been carefully crafted with the user in mind. Key user experience considerations include:
-
-- **Clean Layout**: Simple and structured design for easy readability.
-- **Fast Load Time**: Lightweight HTML/CSS ensures quick performance.
-- **Responsive Design**: Works seamlessly on mobile, tablet, and desktop.
-- **Clear Navigation**: Intuitive menu system for effortless browsing.
-- **Accessibility**: Uses semantic HTML to improve screen reader support.
-- **Interactive Contact Form**: Easy for visitors to get in touch.
+* User friendly navigation.
+* Non distracting background.
+* Learn about me.
+* Explore my skills.
+* Review my education.
+* Connect with me.
+* Get a snapshot of my work style.
 
 ---
-## 🗂️ User History
+## 🗂️ User Stories
 
 This portfolio project evolved through several stages of learning and iteration:
 
-1. **Initial Concept** 
-   - Designed using wireframes  ( use Balsamiq) to map out structure and content.
-   - Focused on presenting skills, services, and contact information clearly.
+* As a visitor, I want to quickly understand who the developer is and what they do,
+So that I can decide if I’m interested in exploring their work or contacting them.
 
-2. **Development Phase** 
-   - Built with clean HTML and CSS for a responsive, mobile-first layout.
+* As a hiring manager, I want to view the developer’s education and technical skills in a clear, professional format,
+So that I can evaluate their suitability for a job role.
+
+* As another developer, I want to see what tools and technologies they use,
+So I can learn from their tech stack or potentially collaborate.
+
+*  As a trainer or mentor, I want to assess the developer’s progress and areas of expertise,
+So that I can give relevant feedback or advice.
+
+* As a recruiter with limited time, I want to scan the portfolio and find education, skills, and contact info easily,
+So that I can make a quick hiring decision or shortlist the developer.
+
+## Website Goals and Objectives
+
+* Showcase my skills and experience.
+* Create a professional online presence. 
+* Highlight my education and training.
+* Offer simple and accessible ways to get in touch with me.
+* Use responsive, mobile-first design to ensure compatibility across all devices.
+* Organize content into logical sections for easy finding. 
+* Increase overall website traffic by increasing rankings on search engine.
 
 
-3. **User Feedback** 
-   - Shared locally with peers and mentors for feedback.
-   - Improved layout spacing, color contrast, and content clarity based on suggestions.
 
-4. **Final Polish** 
-   - Ensured semantic HTML for accessibility.
-   - Optimized images and icons for faster loading.
-   - Final touches included a downloadable CV button and active social media links.
+ ## Target Audience
 
-5. **Future Plans** 
-   - Add a project gallery with modals or a filter system.
-   
+* Hiring Managers and Recruiters
+* Fellow Developers
+* General Viewers
+* Students and Educators
+
+[Back to top](#contents)
+
 
 ## 🛠️ Built With
 
