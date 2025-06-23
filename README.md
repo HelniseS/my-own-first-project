@@ -57,7 +57,7 @@ Welcome to my personal portfolio website!This site was created to present my jou
 
 ---
 
-## 💼 Features
+## Features
 
 - Responsive design
 - Smooth navigation bar
@@ -69,7 +69,7 @@ Welcome to my personal portfolio website!This site was created to present my jou
 
 ---
 
-## 🧑‍💻 User Goals
+## User Goals
 
 This portfolio website has been carefully crafted with the user in mind. Key user experience considerations include:
 * User friendly navigation.
@@ -81,7 +81,7 @@ This portfolio website has been carefully crafted with the user in mind. Key use
 * Get a snapshot of my work style.
 
 ---
-## 🗂️ User Stories
+## User Stories
 
 This portfolio project evolved through several stages of learning and iteration:
 
