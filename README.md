@@ -120,7 +120,33 @@ So that I can make a quick hiring decision or shortlist the developer.
 * Students and Educators
 
 [Back to top](#contents)
+## Wireframes
 
+Wireframes were designed using Balsamiq tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view. There are some deviations from wireframes in the live version of the quiz. It is one page website to enhance the logical flow. I have added level user selected in the question view, a number of correct and wrong answers as well. A functionality of local storage to display top 5 results is included in the final version as well. 
+
+ [Mobile Wireframes](docs/mobile-wireframes.pdf "Mobile Wireframes")
+
+ [Tablet Wireframes](docs/tablet-wireframes.pdf "Tablet Wireframes")
+
+ [Desktop Wireframes](docs/desktop-wireframes.pdf "Desktop Wireframes")
+
+ [Back to top](#contents)
+
+ ## Design Choices
+
+### Typography
+
+The font family chosen for The Ultimate Animation quiz was [Lato](https://fonts.google.com/specimen/Lato?query=lato "Lato"). It is a sans-serif font with a rounded appearance and a modern feel. Lato also has a clean and easy-to-read style, making it suitable for both print and web design.
+
+### Colour Scheme
+
+The color scheme chosen based on the background image. All the colours are cool toned to match the black and white image theme. 
+![Coolors Scheme](docs/color-scheme.png)
+
+I have also used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to get inspiration for possible colour combination to make the website visually appealing.
+
+
+![Contrast Grid](docs/contrast-grid-color.pn
 
 ## 🛠️ Built With
 
