@@ -126,9 +126,9 @@ Wireframes were designed using Balsamiq tool. Following best practices, mobile v
 
  [Mobile Wireframes](")
 
- [Tablet Wireframes](assets/images/Ipad wireframe.pdf")
+ [Tablet Wireframes]()
 
- [Desktop Wireframes](docs/desktop-wireframes.pdf "Desktop Wireframes")
+ [Desktop Wireframes](assets/images/Computer.wireframe.pdf)
 
  [Back to top](#contents)
 
