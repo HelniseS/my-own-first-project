@@ -178,7 +178,6 @@ A clean and modern foote, that displays copyright.
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5 "HTML")
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "CSS")
-- [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript "JS")
 
 ## Libraries & Framework
 
