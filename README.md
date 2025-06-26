@@ -42,17 +42,6 @@ Welcome to my personal portfolio website!This site was created to present my jou
 - [Credits](#credits)
 
 
-## Features
-
-- Responsive design
-- Smooth navigation bar
-- Professional photo and branding
-- Skills, education, and experience sections
-- Services offered
-- Contact form with email & phone details
-- Downloadable CV button
-
----
 
 ## User Goals
 
@@ -65,7 +54,6 @@ This portfolio website has been carefully crafted with the user in mind. Key use
 * Connect with me.
 * Get a snapshot of my work style.
 
----
 ## User Stories
 
 This portfolio project evolved through several stages of learning and iteration:
@@ -150,8 +138,6 @@ Wireframes were designed using Balsamiq tool. Following best practices, mobile v
 
 # Features
 
-Layout is easy to use and adheres to the best practices in formatting and styling. Players can easily navigate between questions and access additional features such as high scores and contact information.
-With a countdown timer, multiple-choice questions and real-time feedback on right and wrong responses, the quiz offers users an engaging experience. This interactive feature increases user engagement and motivates users to take knowledge tests.
 
 ## Existing Features
 
