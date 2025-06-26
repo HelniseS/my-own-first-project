@@ -195,8 +195,6 @@ A clean and modern foote, that displays copyright.
 * [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
 * [WAVE Accessibility Tool](https://wave.webaim.org/ "WAVE Accessibility Tool")
 * [Color Contrast Accessibility Validator](https://color.a11y.com/ "Color Contrast Accessibility Validator")
-- [cdnjs](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css "cdnjs")
-
 
 [Back to top](#contents)
 
@@ -212,9 +210,7 @@ A clean and modern foote, that displays copyright.
 
 ### HTML
 
-I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). I have tested 3 html files. They all came back without errors.
-
-* Main Quiz Page:
+I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). 
 
 
 * Feedback Acknowledgement:
@@ -225,9 +221,7 @@ I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML").
 
 ### CSS
 
-CSS code for the webpage was validated on [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator"). It has returned errors only relating to external cdnjs file which is used for font awesome icons. There were no errors relating CSS code for this website. 
 
-![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
 
 [Back to top](#contents)
 
@@ -302,8 +296,7 @@ Tests for Mobile on Lighthouse Edge:
 
 - Click on the **Save** button.
 
-- The website is now live at https://indre-v.github.io/animation-quiz/.
-
+- The website is now live at 
 _Any changes required to the website, they can be made, committed and pushed to GitHub._
 
 [Back to top](#contents)
