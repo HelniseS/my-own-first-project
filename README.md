@@ -136,14 +136,36 @@ Wireframes were designed using Balsamiq tool. Following best practices, mobile v
 
 ### Typography
 
-The font family chosen for The Ultimate Animation quiz was [Lato](https://fonts.google.com/specimen/Lato?query=lato "Lato"). It is a sans-serif font with a rounded appearance and a modern feel. Lato also has a clean and easy-to-read style, making it suitable for both print and web design.
+| Purpose             | Font Family         | Weight     | Style         |
+|---------------------|---------------------|------------|---------------|
+| Primary Font        | `Poppins`, sans-serif | 400–700   | Clean, modern |
+| Headings (`h1`, `h2`) | `Poppins`, sans-serif | 600–700 | Bold, prominent |
+| Body Text (`p`)     | `Poppins`, sans-serif | 400        | Readable, light |
+| Navigation / Buttons | `Poppins`, sans-serif | 500–600   | Clear, accessible |
+
+**Fallback Fonts:** `sans-serif`  
+**Font Source:** Google Fonts – [Poppins](https://fonts.google.com/specimen/Poppins)
+
 
 ### Colour Scheme
 
-The color scheme chosen based on the background image. All the colours are cool toned to match the black and white image theme. 
-![Coolors Scheme](docs/color-scheme.png)
+| Color Name            | Hex Code   | Usage                               | Preview                          |
+|-----------------------|------------|-------------------------------------|----------------------------------|
+| Background            | `#fdf6e3`  | Page background                     | ![#fdf6e3](https://via.placeholder.com/20/fdf6e3?text=+) |
+| Primary Text          | `#333333`  | Headings, main body text           | ![#333333](https://via.placeholder.com/20/333333?text=+) |
+| Accent - Pink         | `#ff69b4`  | Buttons, highlights                 | ![#ff69b4](https://via.placeholder.com/20/ff69b4?text=+) |
+| Accent - Light Pink   | `#ffb6c1`  | Hover effects, borders              | ![#ffb6c1](https://via.placeholder.com/20/ffb6c1?text=+) |
+| Navbar - Plum         | `#dda0dd`  | Navigation bar background           | ![#dda0dd](https://via.placeholder.com/20/dda0dd?text=+) |
+| Button - Teal         | `#a2d8d3`  | Button backgrounds, cards           | ![#a2d8d3](https://via.placeholder.com/20/a2d8d3?text=+) |
+| Button - Hover        | `#f7b7b7`  | Hover state on interactive elements | ![#f7b7b7](https://via.placeholder.com/20/f7b7b7?text=+) |
+| Subtle Text           | `#555555`  | Footer, secondary information       | ![#555555](https://via.placeholder.com/20/555555?text=+) |
+| Light Gray (Border)   | `#e3e3e3`  | Border lines, section dividers      | ![#e3e3e3](https://via.placeholder.com/20/e3e3e3?text=+) |
 
-I have also used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to get inspiration for possible colour combination to make the website visually appealing.
+> This palette ensures a soft, inviting interface with enough contrast for readability and accessibility.
+
+
+
+
 
 
 ![Contrast Grid](docs/contrast-grid-color.pn
