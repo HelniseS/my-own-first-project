@@ -1,4 +1,3 @@
-/* -------------------- Base Styles -------------------- */
 * {
   padding: 0;
   margin: 0;
@@ -11,8 +10,8 @@ html {
 }
 
 body {
-  background: #fdf6e3;
-  color: #333333;
+  background: #ffffff;
+  color: #212121;
   padding-top: 100px;
 }
 
@@ -21,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: plum;
+  background-color: #4a148c;
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
@@ -34,7 +33,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  color: #2c003e;
+  color: #ffffff;
 }
 
 .nav-menu {
@@ -46,13 +45,13 @@ body {
 }
 
 .nav-menu li a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
 }
 
 .nav-menu li a:hover {
-  color: #128b86;
+  color: #00bcd4;
 }
 
 .nav-right {
@@ -63,7 +62,7 @@ body {
 
 .download-btn {
   padding: 10px 15px;
-  background-color: #128b86;
+  background-color: #00796b;
   color: #ffffff;
   text-decoration: none;
   border-radius: 4px;
@@ -72,13 +71,13 @@ body {
 }
 
 .download-btn:hover {
-  background-color: palevioletred;
+  background-color: #c2185b;
 }
 
 /* -------------------- Hero Section -------------------- */
 .hero-section {
   padding: 40px 20px;
-  background-color: #fdf6e3;
+  background-color: #ffffff;
 }
 
 .hero-container {
@@ -90,6 +89,7 @@ body {
   margin: 0 auto;
   flex-wrap: wrap;
   text-align: center;
+  
 }
 
 .hero-img {
@@ -97,8 +97,8 @@ body {
   height: 200px;
   border-radius: 100%;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border: 4px solid #ffb6c1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 4px solid #000000;
   transition: transform 0.3s ease;
 }
 
@@ -110,12 +110,12 @@ body {
   flex: 1 ;
   padding: 80px 40px;
   text-align: center;
-  background-color: #fdf6e3;
+  background-color: #f5f5f5;
 }
 
 .home h1 {
   font-size: 28px;
-  color: #333333;
+  color: #000000;
 }
 
 .home p {
@@ -126,7 +126,7 @@ body {
 }
 
 .name {
-  color: pink;
+  color: #d32f2f;
   font-weight: bold;
 }
 /* -------------------- General Layout Utilities -------------------- */
@@ -145,12 +145,12 @@ body {
 
 /* -------------------- About / Section Wrapper -------------------- */
 .section {
-  padding: 60px 20px;
-  background-color: #fdf6e3;
+  padding: 60px 0px;
+  background-color: #f5f5f5;
   margin: auto;
 }
 h1.sub-title {
-  color: #f48fb4;
+  color: #880e4f;
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -164,14 +164,14 @@ h1.sub-title {
 .top-header h1 {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #ff69b4;
+  color: #880e4f;
   margin-bottom: 10px;
 }
 
 .middle-section {
   padding: 60px 40px;
   margin-top: 60px;
-  background-color: #fdf6e3;
+  background-color: #ffffff;
 }
 
 /* -------------------- About Boxes -------------------- */
@@ -184,9 +184,9 @@ h1.sub-title {
 
 .box {
   flex: 1 1 30%;
-  background-color: #fff;
+  background-color: #f5f5f5;
   padding: 20px;
-  border: 1px solid #e3e3e3;
+  border: 2px solid #424242;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   
@@ -194,7 +194,7 @@ h1.sub-title {
 
 .box h2 {
   font-size: 22px;
-  color: #1A1A1A;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -209,8 +209,8 @@ h1.sub-title {
 
 .box p,
 .box li {
+  color: #111111;
   font-size: 16px;
-  color: #555;
   line-height: 1.6;
 }
 
@@ -218,18 +218,7 @@ h1.sub-title {
   padding-left: 20px;
 }
 
-.about-btn button {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  background-color: #a2d8d3;
-  color: #0a192f;
-  border-radius: 30px;
-}
 
-.about-btn button:hover {
-  background: #f7b7b7;
-}
 .middle-section {
   transition: transform 0.6s ease, opacity 0.6s ease;
 }
@@ -256,13 +245,11 @@ h1.sub-title {
 }
 
 .education h2 {
-  color: #ff69b4;
   margin-bottom: 15px;
 }
 
 .education-list h3 {
   font-size: 1.2em;
-  color: #ff69b4;
   margin-bottom: 10px;
 }
 
@@ -294,7 +281,6 @@ h1.sub-title {
 }
 
 button {
-  background-color: #a2d8d3;
   color: #0a192f;
   padding: 10px 16px;
   border-radius: 20px;
@@ -356,14 +342,15 @@ button:hover {
 
 /* -------------------- Services -------------------- */
 #services {
-  background-color: #fdf6e3;
+  background-color: #ffffff;
   padding: 60px 20px;
   text-align: center;
 }
 #services h2 {
   font-size: 2.5rem;
+  font-weight: 600;
   margin-bottom: 10px;
-  color: #ff69b4;
+  color: #880e4f;
 }
 
 .subtitle {
@@ -382,7 +369,7 @@ button:hover {
 }
 
 .service-box {
-  background-color: #ffffff;
+  background-color: #eeeeee;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -398,7 +385,7 @@ button:hover {
 }
 .service-box p {
   
-  color: #666;
+  color: #333333;
   line-height: 1.6;
 }
 @keyframes fadeInUp {
@@ -434,7 +421,7 @@ button:hover {
 }
 
 .project-box {
-  background-color: #fff;
+  background-color: #eeeeee;
   min-height: 250px;
   padding: 60px;
   width: 400px;
@@ -471,7 +458,7 @@ button:hover {
 .contact-info h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #ff69b4;
+ 
 }
 
 .contact-info p {
@@ -482,6 +469,7 @@ button:hover {
 
 .contact-form {
   width: 100%;
+  color: #eeeeee;
   max-width: 600px;
   background: transparent;
   padding: 25px;
@@ -510,8 +498,8 @@ button:hover {
 }
 
 .btn {
-  background-color: #007bff;
-  color: white;
+  background-color: #00796b;
+  color:#ffffff;
   border: none;
   padding: 12px 25px;
   font-size: 1rem;
@@ -521,12 +509,12 @@ button:hover {
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #c2185b;
 }
 
 /* -------------------- Footer -------------------- */
 .footer {
-  background-color: #fdf6e3;
+  background-color: #f5f5f5;
   text-align: center;
   padding: 15px 0;
   color: #555;
@@ -542,7 +530,7 @@ button:hover {
   margin-bottom: 2rem;
   padding: 1.5rem;
   border-radius: 12px;
-  background: #f9f9f9;
+  background: #eeeeee;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -571,11 +559,11 @@ button:hover {
 }
 .section {
   padding: 4rem 2rem;
-  background-color: #fdf6e3;
+  background-color: #ffffff;
 }
 
 .sub-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
   color: #333;
@@ -634,3 +622,4 @@ button:hover {
     flex-direction: column;
   }
 }
+
