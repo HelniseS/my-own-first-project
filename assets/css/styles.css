@@ -52,7 +52,7 @@ body {
 }
 
 .nav-menu li a:hover {
-  color: aquamarine;
+  color: #128b86;
 }
 
 .nav-right {
@@ -634,15 +634,3 @@ button:hover {
     flex-direction: column;
   }
 }
-
-
-
-
-
-
-
-
-
-    
-
-  
