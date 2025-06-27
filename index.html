@@ -14,20 +14,20 @@
 <body>
 
     
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main site navigation">
      <div class="nav-logo">Helnise.</div>
     
       <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-           <li><a href="#contact">Contact</a></li>
-           <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="#home" aria-label="Go to Home section">Home</a></li>
+            <li><a href="#about" aria-label="Go to About section">About</a></li>
+            <li><a href="services.html" aria-label="View Services page">Services</a></li>
+            <li><a href="#projects" aria-label="Go to Projects section">Projects</a></li>
+           <li><a href="#contact" aria-label="Go to Contact section">Contact</a></li>
+           <li><a href="testimonials.html" aria-label="View Testimonials page">Testimonials</a></li>
            
             </ul>
             
-             <a href="assets/file/my-cv.docx" download class="download-btn">Download CV</a>
+             <a href="assets/file/my-cv.docx" download class="download-btn" aria-label="Download my CV as Word document">Download CV</a>
           </nav>
      
     
@@ -43,13 +43,13 @@
             <p>I am a front-end Web Developer, passionate about building responsive and use-friendly websites.</p>
         
             <div class="social-icons">
-                <a href="https://github.com/HelniseS" target="_blank">
+                <a href="https://github.com/HelniseS" target="_blank" aria-label="GitHub profile">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                 <a href="https://www.instagram.com/miss_ssantoss" target="_blank">
+                 <a href="https://www.instagram.com/miss_ssantoss" target="_blank" aria-label="Instagram profile">
                     <i class="fa-brands fa-square-instagram"></i>
                  </a>
-                 <a href="https://www.linkedin.com/in/helnise-afonso-dos-santos" target="_blank">
+                 <a href="https://www.linkedin.com/in/helnise-afonso-dos-santos" target="_blank" aria-label="LinkedIn profile">
                     <i class="fa-brands fa-linkedin"></i>
 
                  </a>
@@ -154,17 +154,17 @@
 
             <div class="col">
              <div class="contact-form">
-                <div class="form-inputs">
             <form action="https://formsubmit.co/helnise-santos12@hotmail.com" method="POST">
-                    <input type="text" name="name" class="input-info" placeholder="Name" required>
-                    <input type="email" name="email" class="input-info" placeholder="Email" required>
+             <div class="form-inputs"></div>
+                <input type="text" name="name" class="input-info" placeholder="Name" aria-label="Your name" required>
+                <input type="email" name="email" class="input-info" placeholder="Email" aria-label="Your email" required>
                 </div>
                 <div class="text-area">
-                    <textarea  name="message"  placeholder="Message" required></textarea>
+                    <textarea  name="message"  placeholder="Message" aria-label="Your message" required></textarea>
                 </div>
 
                 <div class="form-button">
-                    <button type="submit" class="btn">Send</button>
+                    <button type="submit" class="btn" aria-label="Send message form">Send</button>
                     </div>
                 </form>
                 </div>
