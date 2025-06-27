@@ -149,10 +149,16 @@ body {
   background-color: #fdf6e3;
   margin: auto;
 }
+h1.sub-title {
+  color: #f48fb1;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
 
 .top-header {
   text-align: center;
   margin-bottom: 40px;
+  
 }
 
 .top-header h1 {
@@ -224,9 +230,25 @@ body {
 .about-btn button:hover {
   background: #f7b7b7;
 }
+.middle-section {
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
 
+/* Animate the About section when it's targeted via nav */
+.middle-section:target {
+  animation: rotateOnTarget 0.6s ease-in-out;
+}
 
-
+@keyframes rotateOnTarget {
+  0% {
+    transform: rotateY(90deg) scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
 /* -------------------- Education -------------------- */
 .education {
   flex: 1 1 45%;
@@ -295,7 +317,25 @@ button:hover {
   border-radius: 8px;
   display: none;
 }
+.section {
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
 
+/* When a section is targeted (clicked via anchor link) */
+.section:target {
+  animation: rotateOnTarget 0.6s ease-in-out;
+}
+
+@keyframes rotateOnTarget {
+  0% {
+    transform: rotateY(90deg) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
 /* -------------------- Social Icons -------------------- */
 .social-icons {
   margin-top: 20px;
@@ -323,7 +363,7 @@ button:hover {
 #services h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #ff69b4;
 }
 
 .subtitle {
@@ -361,7 +401,30 @@ button:hover {
   color: #666;
   line-height: 1.6;
 }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+.service-box {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+
+.service-box:nth-child(1) { animation-delay: 0.2s; }
+.service-box:nth-child(2) { animation-delay: 0.4s; }
+.service-box:nth-child(3) { animation-delay: 0.6s; }
+.service-box:nth-child(4) { animation-delay: 0.8s; }
+.service-box:nth-child(5) { animation-delay: 1s; }
+.service-box:nth-child(6) { animation-delay: 1.2s; }
 /* -------------------- Projects -------------------- */
 .project-container {
   display: flex;
