@@ -122,19 +122,24 @@ Wireframes were designed using Balsamiq tool. Following best practices, mobile v
 
 ### Colour Scheme
 
-| Color Name            | Hex Code   | Usage                               | Preview                          |
-|-----------------------|------------|-------------------------------------|----------------------------------|
-| Background            | `#fdf6e3`  | Page background                     | ![#fdf6e3](https://via.placeholder.com/20/fdf6e3?text=+) |
-| Primary Text          | `#333333`  | Headings, main body text           | ![#333333](https://via.placeholder.com/20/333333?text=+) |
-| Accent - Pink         | `#ff69b4`  | Buttons, highlights                 | ![#ff69b4](https://via.placeholder.com/20/ff69b4?text=+) |
-| Accent - Light Pink   | `#ffb6c1`  | Hover effects, borders              | ![#ffb6c1](https://via.placeholder.com/20/ffb6c1?text=+) |
-| Navbar - Plum         | `#dda0dd`  | Navigation bar background           | ![#dda0dd](https://via.placeholder.com/20/dda0dd?text=+) |
-| Button - Teal         | `#a2d8d3`  | Button backgrounds, cards           | ![#a2d8d3](https://via.placeholder.com/20/a2d8d3?text=+) |
-| Button - Hover        | `#f7b7b7`  | Hover state on interactive elements | ![#f7b7b7](https://via.placeholder.com/20/f7b7b7?text=+) |
-| Subtle Text           | `#555555`  | Footer, secondary information       | ![#555555](https://via.placeholder.com/20/555555?text=+) |
-| Light Gray (Border)   | `#e3e3e3`  | Border lines, section dividers      | ![#e3e3e3](https://via.placeholder.com/20/e3e3e3?text=+) |
+| Element / Section            | Color Description       | Hex Code     |
+|-----------------------------|--------------------------|--------------|
+| Body Background             | White                    | `#ffffff`    |
+| Default Text                | Dark Gray                | `#212121`    |
+| Navbar Background           | Black                    | `#000000`    |
+| Navbar Link Hover           | Cyan                     | `#00bcd4`    |
+| Download Button             | Teal                     | `#00796b`    |
+| Download Button (Hover)     | Pink                     | `#c2185b`    |
+| Highlighted Name Text       | Red                      | `#d32f2f`    |
+| Section Headings            | Deep Rose                | `#880e4f`    |
+| Boxes / Cards Background    | Light Gray               | `#f5f5f5`    |
+| Box Borders                 | Dark Gray                | `#424242`    |
+| Contact Info Text           | Purple                   | `purple`     |
+| Testimonials Border Accent  | Light Pink               | `#f48fb1`    |
+| Footer Background           | Light Gray               | `#f5f5f5`    |
+| Button Text Color           | White                    | `#ffffff`    |
+| Shadow Effects              | Light Black Transparent  | `rgba(0,0,0,0.1)` to `0.15` |
 
-> This palette ensures a soft, inviting interface with enough contrast for readability and accessibility.
 
 # Features
 
@@ -190,8 +195,6 @@ A clean and modern foote, that displays copyright.
 * [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-* [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
-* [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive")
 * [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
 * [WAVE Accessibility Tool](https://wave.webaim.org/ "WAVE Accessibility Tool")
 * [Color Contrast Accessibility Validator](https://color.a11y.com/ "Color Contrast Accessibility Validator")
@@ -200,9 +203,32 @@ A clean and modern foote, that displays copyright.
 
 # Testing
 
-## Bugs 
-## Responsiveness Tests
+## Bugs
 
+During development and testing, several issues were identified and resolved to improve the website's accessibility, HTML structure, and overall performance.
+
+### Testing Tools Used
+- **WAVE Accessibility Tool**
+- **W3C HTML Validator**
+- **Google Lighthouse**
+
+### 📋 Summary of Issues
+
+| Issue Type            | Description                                                                 | Tool Used     | Fix Status       |
+|-----------------------|-----------------------------------------------------------------------------|---------------|------------------|
+| Contrast Errors       | Very low contrast (e.g. 1.1:1) between text and background.                 | WAVE          |  Updated colors |
+| Missing `<h1>`        | No top-level heading was detected on the main page.                         | WAVE          |  Added `<h1>`   |
+| Unclosed Tags         | Multiple unclosed elements: `<form>`, `<section>`, `<div>`, and `<body>`.   | W3C Validator |  Fixed structure|
+| Stray Closing Tag     | Extra closing `</form>` tag found.                                          | W3C Validator |  Removed        |
+| Skipped Heading Level | Heading structure was inconsistent, skipping from `<h1>` to `<h3>`.         | WAVE          |  Reorganized    |
+| Suspicious Alt Text   | Some images had missing or unclear `alt` attributes.                        | WAVE          |  Added proper alt|
+| Link to Word Document | Linking directly to a downloadable `.docx` file raised accessibility flag. | WAVE          |  Added label    |
+| Large Image Size      | Hero image not optimized—recommended savings of 250+ KiB.                   | Lighthouse    | Optimized file |
+
+###  Notes
+- All HTML structure errors were corrected to ensure proper nesting and closing of tags.
+- Accessibility scores improved significantly after fixing contrast and heading issues.
+- A smaller image in WebP format was used to enhance loading performance.
 
 
 
@@ -211,7 +237,7 @@ A clean and modern foote, that displays copyright.
 ### HTML
 
 I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). 
-
+[HTML](assets/images/html.img.JPG)
 
 * Feedback Acknowledgement:
 
@@ -220,7 +246,7 @@ I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML").
 [Back to top](#contents)
 
 ### CSS
-
+[CSS](assets/images/css.img.JPG)
 
 
 [Back to top](#contents)
@@ -251,34 +277,20 @@ Every feature was manually tested using the test script and outcomes recorded.
 
 I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.org/) which helps to determine if web content is accessible to individuals with diverse needs. No issues were raised.
 
-![WAVE]
+[WAVE](assets/images/wave.img.JPG)
 
 
 [Back to top](#contents)
 
 
 ## Lighthouse Testing
-
-
+[](assets/images/mobile.img.JPG)
+[](assets/images/mobile.img1.JPG)
 
 * Performance - how quickly a website loads and how quickly users can access it.
 * Accessibility - test analyses how well people who use assistive technologies can use your website.
 * Best Practices - checks whether the page is built on the modern standards of web development.
 * SEO - checks if the website is optimised for search engine result rankings.
-
-Tests for Desktop on Lighthouse Chrome:
-
-
-Tests for Desktop Lighthouse Edge:
-
-Tests for Mobile on Lighthouse Edge:
-
-
-[Back to top](#contents)
-
-
-## Browser Testing
-
 
 
 [Back to top](#contents)
@@ -331,14 +343,11 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 
 - Code inspiration and learning content:
 
-  - [Project Portfolio-2 channel on Slack](https://slack.com/intl/en-ie/ "Slack")
   - [W3C Schools](https://www.w3schools.com/ "W3C Schools")
  
 * YouTube Channels 
-  * 
-  * 
-  * 
-  * 
+  [](https://www.youtube.com/@GreatStackDev)
+  
 
 
 * Visual content:
@@ -346,13 +355,14 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
   - [Coolors](https://coolors.co/ "Coolors")
   
 * Images:
-  
+  [Profile]imgenic.com
+  [testimonial](https://unsplash.com/)
   
 
 [Back to top](#contents)
 
 
 
-## 📄 License
+PRO## 📄 License
 
 This project is open for learning and sharing purposes. Please credit the original author if reused or modified.
