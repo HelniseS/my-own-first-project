@@ -18,8 +18,6 @@ Welcome to my personal portfolio website!This site was created to present my jou
     + [Responsiveness](#responsiveness)
 - [Features](#features)
   * [Existing Features](#existing-features)
-    + [Header](#header)  
-    + [Footer](#footer)
 - [Technologies Used](#technologies-used)
   * [Languages](#languages)
   * [Libraries & Framework](#libraries---framework)
@@ -30,7 +28,6 @@ Welcome to my personal portfolio website!This site was created to present my jou
   * [Code Validation](#code-validation)
     + [HTML](#html)
     + [CSS](#css)
-  * [User Story Testing](#user-story-testing)
   * [Feature Testing](#feature-testing)
   * [Accessibility Testing](#accessibility-testing)
   * [Lighthouse Testing](#lighthouse-testing)
@@ -161,9 +158,6 @@ A portfolio showcase featuring examples of my past work. Each project includes i
 ## Testimonials
 A collection of authentic client reviews and feedback to build trust and credibility. Each testimonial includes the client’s name, role, and their positive experience working with me, helping to reinforce my professionalism and reliability.
 
-## Blog
-An area dedicated to articles and insights about web development, IT essentials, SEO, performance optimization, and other relevant topics. This section shows my knowledge, keeps visitors engaged, and helps establish me as a thought leader in my field.
-
 ## Contact
 A straightforward contact form allowing visitors to send inquiries or messages directly from the website. It also includes additional contact details such as email and social media links to facilitate easy communication.
 
@@ -212,7 +206,7 @@ During development and testing, several issues were identified and resolved to i
 - **W3C HTML Validator**
 - **Google Lighthouse**
 
-### 📋 Summary of Issues
+### Summary of Issues
 
 | Issue Type            | Description                                                                 | Tool Used     | Fix Status       |
 |-----------------------|-----------------------------------------------------------------------------|---------------|------------------|
@@ -236,7 +230,6 @@ During development and testing, several issues were identified and resolved to i
 
 ### HTML
 
-I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). 
 [HTML](assets/images/html.img.JPG)
 
 * Feedback Acknowledgement:
