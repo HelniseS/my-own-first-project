@@ -94,11 +94,11 @@ So that I can make a quick hiring decision or shortlist the developer.
 
 Wireframes were designed using Balsamiq tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view. There are some deviations from wireframes in the live version of the quiz. It is one page website to enhance the logical flow. I have added level user selected in the question view, a number of correct and wrong answers as well. A functionality of local storage to display top 5 results is included in the final version as well. 
 
- [Mobile Wireframes](assets/images/mobile.wireframe.pdf)
+ ![Mobile Wireframes](assets/images/mobile-wireframe.png)
 
- [Tablet Wireframes](assets/images/tablet.wireframe.pdf)
+ ![Tablet Wireframes](assets/images/ipad-wireframe.png)
 
- [Desktop Wireframes](assets/images/Computer.wireframe.pdf)
+ ![Desktop Wireframes](assets/images/web-wireframe.png)
 
  [Back to top](#contents)
 
