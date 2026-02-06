@@ -284,8 +284,14 @@ I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.or
 
 
 ## Lighthouse Testing
-[](assets/images/mobile.img.JPG)
-[](assets/images/mobile.img1.JPG)
+
+Desktop Results:
+
+![Desktop Lighthouse Results](assets/images/lighthouse/lighthouse-desktop.png)
+
+Mobile Results:
+
+![Mobile Lighthouse Results](assets/images/lighthouse/lighthouse-mobile.png)
 
 * Performance - how quickly a website loads and how quickly users can access it.
 * Accessibility - test analyses how well people who use assistive technologies can use your website.
