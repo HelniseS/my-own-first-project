@@ -245,6 +245,17 @@ During development and testing, several issues were identified and resolved to i
 - A smaller image in WebP format was used to enhance loading performance.
 
 
+## CV Download Test
+
+The CV download button was manually tested on the deployed GitHub Pages site to ensure that the file path is correct and that no broken links are present.
+
+The PDF file is stored in: assets/file/my-cv.pdf
+
+
+Clicking the **Download CV** button successfully downloads the document in the browser, as shown below:
+
+![CV Download Working](assets/images/cv-download-working.png)
+
 
 ## Code Validation
 
