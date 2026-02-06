@@ -1,7 +1,7 @@
-﻿# Helnise Portfolio Website 🌐
+﻿# Helnise Portfolio Website 
 
 Welcome to my personal portfolio website!This site was created to present my journey as a web developer and IT support specialist, showcasing my technical skills, education, and professional interests. It serves as a digital résumé and an online space where recruiters, collaborators, or anyone interested in my work can learn more about me. 
-## 🚀 Live Preview
+##  Live Preview
 
  https://helnises.github.io/my-own-first-project/
 
