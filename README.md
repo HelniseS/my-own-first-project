@@ -201,29 +201,30 @@ A clean and modern foote, that displays copyright.
 
 
 # Testing
+
 ## Manual Test Plan
+
 | Feature | Steps | Expected | Actual | Pass/Fail |
 |---|---|---|---|---|
-| Navigation (all pages) | Click each nav link on every page | Correct page loads, active state clear |  |  |
-| Keyboard navigation | Tab through page | Visible focus indicator on links/buttons |  |  |
-| External links | Click external links | Opens in new tab, no console errors |  |  |
-| Security best practice | Inspect external link markup | rel="noopener noreferrer" present |  |  |
-| Images | Load pages on mobile + desktop | Images are sharp, correct sizing |  |  |
-| Responsiveness 320px | Resize/devtools | No horizontal scroll, layout stacks |  |  |
-| Responsiveness 768px | Resize/devtools | Grid adjusts cleanly |  |  |
-| Responsiveness 1024px | Resize/devtools | Spacing consistent, no overlaps |  |  |
-| Responsiveness 1440px | Resize/devtools | Hero not blurry/pixelated |  |  |
-| Download links (if any) | Click download | Correct file downloads/opens |  |  |
-
-
-## Bugs
-
-During development and testing, several issues were identified and resolved to improve the website's accessibility, HTML structure, and overall performance.
+| Navigation (all pages) | Click each nav link on every page | Correct page loads, active state clear | As expected | Pass |
+| Keyboard navigation | Tab through page | Visible focus indicator on links/buttons | As expected | Pass |
+| External links | Click external links | Opens in a new tab, no console errors | As expected | Pass |
+| Security best practice | Inspect external link markup | `rel="noopener noreferrer"` present | As expected | Pass |
+| Images | Load pages on mobile + desktop | Images are sharp, correct sizing | As expected | Pass |
+| Responsiveness 320px | Resize/devtools | No horizontal scroll, layout stacks | As expected | Pass |
+| Responsiveness 768px | Resize/devtools | Grid adjusts cleanly | As expected | Pass |
+| Responsiveness 1024px | Resize/devtools | Spacing consistent, no overlaps | As expected | Pass |
+| Responsiveness 1440px | Resize/devtools | Hero not blurry/pixelated | As expected | Pass |
+| Download CV | Click download button | PDF opens/downloads correctly | As expected | Pass |
 
 ### Testing Tools Used
 - **WAVE Accessibility Tool**
 - **W3C HTML Validator**
 - **Google Lighthouse**
+
+## Bugs
+
+During development and testing, several issues were identified and resolved to improve the website's accessibility, HTML structure, and overall performance.
 
 ### Summary of Issues
 
@@ -368,6 +369,10 @@ Any third-party resources have been credited below in accordance with best pract
 ### Fonts
 - **Poppins** – Google Fonts  
   https://fonts.google.com/specimen/Poppins
+
+  ### Icons
+- **Font Awesome** – icon library  
+  https://fontawesome.com/
 
 ### Tools & Platforms
 - **GitHub** – version control and deployment  
